@@ -9,7 +9,9 @@ app_license = "MIT"
 
 # Includes in <head>
 # ------------------
-
+override_doctype_class = {
+    "Stock Entry": "prm_specifications.overrides.stock_entry.CustomStockEntry"
+}
 # include js, css files in header of desk.html
 # app_include_css = "/assets/prm_specifications/css/prm_specifications.css"
 # app_include_js = "/assets/prm_specifications/js/prm_specifications.js"
